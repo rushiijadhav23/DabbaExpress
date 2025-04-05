@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Add padding for fixed header */
 }
 
 body {
@@ -31,7 +32,7 @@ body {
 }
 
 .section {
-  @apply py-16 md:py-24 scroll-mt-16;
+  @apply py-16 md:py-24 scroll-mt-24; /* Increase scroll margin for better positioning */
 }
 
 .container {

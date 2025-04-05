@@ -522,7 +522,7 @@ function App() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-2">
                   <EnvelopeIcon className="w-6 h-6 text-gray-400" />
-                  <a href="mailto:hello@dabbaexpress.com" className="text-gray-600 hover:text-primary-500">
+                  <a href="mailto:rushijadhav1423@gmail.com" className="text-gray-600 hover:text-primary-500">
                     hello@dabbaexpress.com
                   </a>
                 </div>

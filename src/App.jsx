@@ -118,7 +118,7 @@ function App() {
                 }}
                 className="text-2xl font-bold text-primary-500"
               >
-                DabbaExpress
+                GharoMA
               </a>
             </motion.div>
             
@@ -559,14 +559,14 @@ function App() {
           <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-bold mb-4">DabbaExpress</h3>
+                <h3 className="text-xl font-bold mb-4">GharoMA</h3>
                 <p className="text-gray-600">Launching soon in Mumbai | 2025</p>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center space-x-2">
                   <EnvelopeIcon className="w-6 h-6 text-gray-400" />
                   <a href="mailto:rushijadhav1423@gmail.com" className="text-gray-600 hover:text-primary-500">
-                    hello@dabbaexpress.com
+                    hello@GharoMA.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">

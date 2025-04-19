@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import { Analytics } from "@vercel/analytics/react";
 import {
   EnvelopeIcon,
   PhoneIcon,
@@ -95,6 +96,7 @@ function App() {
   return (
     <div className="min-h-screen">
       {/* Navbar */}
+      <Analytics />
       <motion.nav
         initial="transparent"
         animate={scrolled ? "solid" : "transparent"}
